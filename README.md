@@ -13,4 +13,4 @@ Options:
   --query=<query>   Splunk query ex. savedsearch All_the_things  
   
 # Example
-python3 splunker.py --server super_fast_splunk_server --port 8089 --user auditor_api --query "savedsearch All_the_things"  
+python3 splunker.py --server super_fast_splunk_server --port 8089 --user CoolNameHere --query "savedsearch All_the_things"  
