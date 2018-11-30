@@ -66,9 +66,11 @@ def main():
             splunk_pass=splunk_pass
         )
         results = export_ips_from_splunk_query(splunk_service,query)
-        print(results)
+        print("IP count: {}".format(len(results)))
+        for i in results:
+            print(i)
     except Exception as ex:
         print(str(ex))
-        
+
 if __name__ == '__main__':
     main()
