@@ -1,2 +1,2 @@
 # splunk_export
-Export Ps from a splunk query
+Grab a set of IPs from a splunk query
